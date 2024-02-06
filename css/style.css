@@ -99,6 +99,16 @@ body.is-fixed {
 .fv {
   position: relative;
 }
+.fv__img {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #fff;
+}
+.fv__img img {
+  opacity: 0.4;
+  display: block;
+}
 .fv__contents {
   position: absolute;
   bottom: 26px;
