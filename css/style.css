@@ -208,14 +208,22 @@ body.is-fixed {
   font-size: 14px;
 }
 
+.price__item-text {
+  font-size: 16px;
+  font-weight: bold;
+}
 .price__table {
-  border-collapse: collapse; /* セルの境界線を一つにまとめる */
-  width: 100%; /* テーブルを親要素の幅いっぱいに広げる */
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
 }
 .price__head, .price__cell {
-  border: 1px solid #ddd; /* 枠線のスタイルと色を指定 */
-  padding: 8px; /* セルの内側の余白を追加 */
-  text-align: left; /* テキストを左寄せにする */
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.price__head:first-child, .price__cell:first-child {
+  width: 5%;
 }
 .price__note {
   font-size: 14px;
