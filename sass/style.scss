@@ -270,8 +270,13 @@ font-size: 14px;
   }
 
   &__head:first-child, &__cell:first-child {
-    width: 5%;
+    width: 7%;
   }
+
+  &__head:not(:first-child), &__cell:not(:first-child) {
+    width: 31%;
+  }
+
 
   &__note {
     font-size: 14px;

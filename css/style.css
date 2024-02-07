@@ -223,7 +223,10 @@ body.is-fixed {
   text-align: left;
 }
 .price__head:first-child, .price__cell:first-child {
-  width: 5%;
+  width: 7%;
+}
+.price__head:not(:first-child), .price__cell:not(:first-child) {
+  width: 31%;
 }
 .price__note {
   font-size: 14px;
