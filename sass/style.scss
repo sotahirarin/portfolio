@@ -255,7 +255,7 @@ font-size: 14px;
   &__item-text {
     font-size: 16px;
     font-weight: bold;
-    
+
   }
   &__table {
     border-collapse: collapse;
@@ -270,11 +270,11 @@ font-size: 14px;
   }
 
   &__head:first-child, &__cell:first-child {
-    width: 7%;
+    width: 50%;
   }
 
   &__head:not(:first-child), &__cell:not(:first-child) {
-    width: 31%;
+    width: 25%;
   }
 
 
