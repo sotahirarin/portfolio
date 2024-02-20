@@ -6,11 +6,12 @@ $("#js-button-drawer").on("click", function () {
 });
 
 
+
 document
   .querySelectorAll('#js-drawer-content a[href^="#"]')
   .forEach(function (link) {
-    if ($(window).width() < 768) {
-      link.addEventListener('click', function (e) {
+    link.addEventListener('click', function (e) {
+      if ($(window).width() < 768) {
         document
           .querySelector("#js-button-drawer")
           .classList.remove("is-checked");
@@ -18,6 +19,6 @@ document
         document
           .querySelector("body")
           .classList.remove("is-fixed");
-      });
-    }
+      }
+    });
   });
