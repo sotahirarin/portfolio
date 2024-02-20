@@ -1,4 +1,9 @@
 @charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+
 body {
   font-family: "Oswald", "Noto Sans JP", sans-serif;
   color: #333;
