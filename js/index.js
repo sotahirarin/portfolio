@@ -6,7 +6,7 @@ $("#js-button-drawer").on("click", function () {
 });
 
 
-
+// ドロワーメニューのリンクをクリックしたらドロワーを閉じる
 document
   .querySelectorAll('#js-drawer-content a[href^="#"]')
   .forEach(function (link) {
